@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 '''
 Returns list representing the Pascal's triangle of n
@@ -19,4 +18,3 @@ def pascal_triangle(n):
         prev_row = row
         triangle += [row]
     return triangle[1:]
-
